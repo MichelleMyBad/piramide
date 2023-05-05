@@ -31,7 +31,7 @@ int risultato=0;
 int counterFloors=0;
 int counterBlocks=1;
 ```
-Creaiamo le variabili che ci serviranno in seguito.
+Creaiamo le variabili che ci serviranno in seguito : la prima per contenere l'area di un piano, la seconda per contenere la quantità di piani costruibili e la terza per avere a disposizione la lunghezza del lato del piano corrente.
 </details>
 <details>
 <summary>Calcolo dei piani</summary>
@@ -48,8 +48,9 @@ if(mattoni<0){
 }
 
 return counterFloors;
+}
 ```
-Tramite <i>for</i> calcoliamo in <i><b>counterFloors</b></i> i piani che riusciremo a costruire. L'<i>if</i> successivo serve in caso i mattoni vadano in negativo : togliamo un piano, dato che l'ultimo piano non siamo chiaramenti riusciti a costruirlo avendo ottenuto un numero di mattoni negativo.
+Tramite <i>for</i> calcoliamo in <i><b>counterFloors</b></i> i piani che riusciremo a costruire. L'<i>if</i> successivo serve in caso i mattoni vadano in negativo : togliamo un piano, dato che l'ultimo piano non siamo chiaramenti riusciti a costruirlo avendo ottenuto un numero di mattoni negativo. Restituiamo poi la variabile e chiudiamo la funzione.
 </details>
  <br>
 </details>
@@ -71,7 +72,7 @@ int piani=Piani(mattoni);
 int restoMattoni=mattoni;
 int num=1;
 ```
-Creaiamo le variabili che ci serviranno in seguito.
+Creaiamo le variabili che ci serviranno in seguito : la prima conterrà il numero di piani costruibili calcolato tramite la funzione <i><b>Piani</b></i>, la seconda alla fine del programma conterrà i mattoni rimanenti mentre la terza servirà per contenere la lungheza del lato del piano corrente.
 </details>
 <details>
 <summary>Calcolo dei mattoni rimasti</summary>
@@ -82,6 +83,7 @@ for(int i=0;i<piani;i++){
     num+=2;
 }
 return restoMattoni;
+}
 ```
-Tramite <i>for</i> calcoliamo quanti mattoni ci resteranno dopo aver costruito la piramide, inserendo questo dato nella variabile <i><b>restoMattoni</b></i>. Restituiamo poi la variabile.
+Tramite <i>for</i> calcoliamo quanti mattoni ci resteranno dopo aver costruito la piramide, inserendo questo dato nella variabile <i><b>restoMattoni</b></i>. Restituiamo poi la variabile e chiudiamo la funzione.
 </details>
