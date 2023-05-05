@@ -21,7 +21,7 @@ if(mattoni<=0){
     return 0;
 }
 ```
-Controlliamo che i mattoni siano maggiori di 0.
+Controlliamo che i mattoni siano maggiori di 0, in caso contrario restituiamo immediatamente 0 al programma, in quanto non sono costruibili piani senza mattoni.
 </details>
 <details>
 <summary>Creazione variabili utili</summary>
