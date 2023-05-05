@@ -6,6 +6,7 @@
 
 <details>
 <summary>Funzione per il calcolo dei piani</summary>
+ 
 ```c#
 public static int Piani( int mattoni )
 {
