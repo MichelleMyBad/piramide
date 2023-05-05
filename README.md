@@ -51,6 +51,7 @@ return counterFloors;
 ```
 Tramite <i>for</i> calcoliamo in <i><b>counterFloors</b></i> i piani che riusciremo a costruire. Con l'<i>if</i> in caso i mattoni vadano in negativo togliamo un piano, dato che l'ultimo piano non siamo chiaramenti riusciti a costruirlo essendo andati in negativo con i mattoni.
 </details>
+ <br> <br>
 </details>
 
 
