@@ -31,7 +31,7 @@ int risultato=0;
 int counterFloors=0;
 int counterBlocks=1;
 ```
-Creaiamo le variabili che ci serviranno in seguito : la prima per contenere l'area di un piano, la seconda per contenere la quantità di piani costruibili e la terza per avere a disposizione la lunghezza del lato del piano corrente.
+Creiamo le variabili che ci serviranno in seguito : la prima per contenere l'area di un piano, la seconda per contenere la quantità di piani costruibili e la terza per avere a disposizione la lunghezza del lato del piano corrente.
 </details>
 <details>
 <summary>Calcolo dei piani</summary>
@@ -72,7 +72,7 @@ int piani=Piani(mattoni);
 int restoMattoni=mattoni;
 int num=1;
 ```
-Creaiamo le variabili che ci serviranno in seguito : la prima conterrà il numero di piani costruibili calcolato tramite la funzione <i><b>Piani</b></i>, la seconda alla fine del programma conterrà i mattoni rimanenti mentre la terza servirà per contenere la lungheza del lato del piano corrente.
+Creiamo le variabili che ci serviranno in seguito : la prima conterrà il numero di piani costruibili calcolato tramite la funzione <i><b>Piani</b></i>, la seconda alla fine del programma conterrà i mattoni rimanenti mentre la terza servirà per contenere la lungheza del lato del piano corrente.
 </details>
 <details>
 <summary>Calcolo dei mattoni rimasti</summary>
