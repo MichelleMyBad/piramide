@@ -11,7 +11,7 @@
 public static int Piani( int mattoni )
 {
 ```
-Dichiariamo la funzione dove andare ad inserire le istruzioni per il calcolo dei piani, passandole come parametro i mattoni disponibili.
+Dichiariamo la funzione dove andremo ad inserire le istruzioni per il calcolo dei piani, passandole come parametro i mattoni disponibili.
 
 <details>
 <summary>Controllo del numero dei mattoni</summary>
@@ -63,7 +63,7 @@ Tramite <i>for</i> calcoliamo in <i><b>counterFloors</b></i> i piani che riuscir
 public static int Rimanenti( int mattoni )
 {
 ```   
-Dichiariamo la funzione dove andare ad inserire le istruzioni per il calcolo dei mattoni rimanenti, passandole come parametro i mattoni disponibili.
+Dichiariamo la funzione dove andremo ad inserire le istruzioni per il calcolo dei mattoni rimanenti, passandole come parametro i mattoni disponibili.
 <details>
 <summary>Dichiarazione variabili utili</summary>
 
