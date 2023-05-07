@@ -50,7 +50,7 @@ if(mattoni<0){
 return counterFloors;
 }
 ```
-Tramite <i>for</i> calcoliamo in <i><b>counterFloors</b></i> i piani che riusciremo a costruire. L'<i>if</i> successivo serve in caso i mattoni vadano in negativo : togliamo un piano, dato che l'ultimo piano non siamo chiaramenti riusciti a costruirlo avendo ottenuto un numero di mattoni negativo. Restituiamo poi la variabile e chiudiamo la funzione.
+Tramite <i>for</i> calcoliamo in <i><b>counterFloors</b></i> i piani che riusciremo a costruire : calcoliamo dentro <b><i>risultato</i></b> l'area del piano, per poi sottrarla al numero totale di mattoni disponibili, aumentiamo in fine il lato di 2. L'<i>if</i> successivo serve in caso i mattoni vadano in negativo : togliamo un piano, dato che l'ultimo piano non siamo chiaramenti riusciti a costruirlo avendo ottenuto un numero di mattoni negativo. Restituiamo poi la variabile e chiudiamo la funzione.
 </details>
  <br>
 </details>
@@ -85,5 +85,5 @@ for(int i=0;i<piani;i++){
 return restoMattoni;
 }
 ```
-Tramite <i>for</i> calcoliamo quanti mattoni ci resteranno dopo aver costruito la piramide, inserendo questo dato nella variabile <i><b>restoMattoni</b></i>. Restituiamo poi la variabile e chiudiamo la funzione.
+Tramite <i>for</i> calcoliamo quanti mattoni ci resteranno dopo aver costruito la piramide : otteniamo l'area del piano corrente per poi sottrarla al numero di mattoni  disponibili, inseriamo poi questo dato nella variabile <i><b>restoMattoni</b></i>. Restituiamo poi la variabile e chiudiamo la funzione.
 </details>
